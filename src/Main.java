@@ -39,7 +39,7 @@ public class Main {
 
     }
 
-
+    // Exercise 3
     private static int calculationDays(int deliveryDistant) {
 
         int deliveryDays = 1;

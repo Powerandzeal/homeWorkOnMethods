@@ -5,6 +5,7 @@ public class Main {
         printYear(2024);
         int currentYear = LocalDate.now().getYear();
         checkOSAndCheckYearMade(currentYear, 0);
+        calculationDays(76);
 
     }
 // Exercise 1
@@ -38,44 +39,23 @@ public class Main {
 
     }
 
-   /* public static void osAndYear(int typeOsVerison, int yearOfMade) {
 
-    }
+    private static int calculationDays(int deliveryDistant) {
 
-    public static int calculationDays(int deliveryDistant) {
-
-        int deliviryDays = 1;
+        int deliveryDays = 1;
 
 
         if (deliveryDistant > 20) {
-            deliviryDays++;
+            deliveryDays++;
         }
         if (deliveryDistant > 60) {
-            deliviryDays++;
+            deliveryDays++;
         }
-        return deliviryDays;
-        //System.out.println("Потребуется " +deliviryDays+   " дня");
-
-        //System.out.println("Потребуется дней ");
-    }*/
+        //System.out.println("Days before to delivery+"deliveryDays);
+        return deliveryDays;
 
 
-    /***
-     * public static void printIsEvenNumber(int number) {
-     *         boolean evenNumber = isEvenNumber(number);
-     *         printIsEvenNumberResult(number, evenNumber);
-     *     }
-     *
-     *     private static boolean isEvenNumber(int number) {
-     *         return number % 2 == 0;
-     *     }
-     *
-     *     private static void printIsEvenNumberResult(int number, boolean evenNumber) {
-     *         if (evenNumber) {
-     *             System.out.println("Число " + number + " четное");
-     *         } else {
-     *             System.out.println("Число " + number + " нечетное");
-     *         }
-     *     }
-     */
+
+    }
+
 }

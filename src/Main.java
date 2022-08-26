@@ -5,7 +5,8 @@ public class Main {
         printYear(2024);
         int currentYear = LocalDate.now().getYear();
         checkOSAndCheckYearMade(currentYear, 0);
-        calculationDays(76);
+        int DistancebeforeUser =calculationDays(76);
+        System.out.println("Время доставки "+DistancebeforeUser+" дня");
 
     }
 // Exercise 1
@@ -20,19 +21,19 @@ public class Main {
         //return year;
     }
     // Exercise 2
-    private static void checkOSAndCheckYearMade(int YearOfMade, int OSVersion) {
+    private static void checkOSAndCheckYearMade(int YearOfMade, int oSVersion) {
 
 
-        if (YearOfMade < 2015 && OSVersion == 0) {
+        if (YearOfMade < 2015 && oSVersion == 0) {
             System.out.println("Установите облегченную версию приложения для IOS по ссылке");
         }
-        if (YearOfMade > 2015 && OSVersion == 0) {
+        if (YearOfMade > 2015 && oSVersion == 0) {
             System.out.println("Установите  версию приложения для IOS по ссылке");
         }
-        if (YearOfMade < 2015 && OSVersion == 1) {
+        if (YearOfMade < 2015 && oSVersion == 1) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
-        if (YearOfMade > 2015 && OSVersion == 1) {
+        if (YearOfMade > 2015 && oSVersion == 1) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
 

@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
         getYear(2024);
-
     }
 
     public static void getYear(int year) {
